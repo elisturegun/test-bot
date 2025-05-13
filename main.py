@@ -1,6 +1,9 @@
-# test_review.py
+def square(x):
+    return x * x
 
-def add(a,b):
- return  a+b    # inconsistent indent and extra spaces
+def cube(x):
+    return x * x * x
 
-print(add( 1,2))  # unnecessary spaces inside call
+# clearly used in main
+def format_output(data):
+    return f"Result: {data}"
