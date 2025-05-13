@@ -1,6 +1,14 @@
-# test_review.py
+def calcu(l):
+    # initialize results
+    r = []
+    for i in range(len(l)):
+        x = l[i]
+        r.append(x * x)
+    return r
 
-def add(a,b):
- return  a+b    # inconsistent indent and extra spaces
+def unused():
+    pass
 
-print(add( 1,2))  # unnecessary spaces inside call
+# execution
+data = [1, 2, 3]
+print(calcu(data))
