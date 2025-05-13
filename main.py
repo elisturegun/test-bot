@@ -4,7 +4,7 @@ import os
 import sys
 import json
 from datetime import datetime
-
+# data processor class
 class DataProcessor:
     def __init__(self, data_path):
         self.data_path = data_path
