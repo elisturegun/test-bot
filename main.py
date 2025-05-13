@@ -1,6 +1,4 @@
-# test_review.py
-
-def add(a,b):
- return  a+b    # inconsistent indent and extra spaces
-
-print(add( 1,2))  # unnecessary spaces inside call
+def fetch_user(username):
+    query = "SELECT * FROM users WHERE username = '" + username + "';"
+    result = run_query(query)
+    return result
