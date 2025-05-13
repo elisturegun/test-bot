@@ -1,6 +1,8 @@
-# test_review.py
+# main.py
 
-def add(a,b):
- return  a+b    # inconsistent indent and extra spaces
+def greet_user(name: str) -> str:
+    """Returns a greeting message for the given user."""
+    return f"Hello, {name}!"
 
-print(add( 1,2))  # unnecessary spaces inside call
+def add(a: int, b: int) -> int:
+    return a + b
